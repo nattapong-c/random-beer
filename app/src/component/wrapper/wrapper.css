@@ -1,0 +1,11 @@
+@media only screen and (max-width: 375px) {
+  div.wrapper {
+    padding: 20px 8px;
+  }
+}
+
+.wrapper {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}

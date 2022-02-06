@@ -1,0 +1,38 @@
+.bold_text {
+  font-weight: bold;
+}
+
+.flex_center {
+  display: flex;
+  justify-content: center;
+}
+
+.alert {
+  position: fixed;
+  z-index: 1000;
+  bottom: 5rem;
+  padding: 10px 40px;
+  background-color: #fff;
+  border-radius: 5px;
+  border: 1px solid #40a9ff;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 2px 4px 0px;
+  animation-name: popup;
+  animation-duration: 0.5s;
+}
+
+@keyframes popup {
+  0% {
+    bottom: 0;
+  }
+  80% {
+    bottom: 6rem;
+  }
+  100% {
+    bottom: 5rem;
+  }
+}
+
+.alert_wrapper {
+  display: flex;
+  justify-content: center;
+}

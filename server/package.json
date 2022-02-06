@@ -1,0 +1,28 @@
+{
+  "name": "bizcuit-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest",
+    "start": "node index.js",
+    "index_db": "node database/index_db.js",
+    "init_data": "node database/init_data.js"
+  },
+  "devDependencies": {
+    "jest": "^27.0.6"
+  },
+  "dependencies": {
+    "ajv": "^8.9.0",
+    "axios": "^0.25.0",
+    "body-parser": "^1.19.1",
+    "cors": "^2.8.5",
+    "dotenv": "^14.2.0",
+    "express": "^4.17.2",
+    "express-async-errors": "^3.1.1",
+    "glob": "^7.2.0",
+    "http-shutdown": "^1.2.2",
+    "joi": "^17.6.0",
+    "mongoose": "^5.13.2"
+  }
+}
